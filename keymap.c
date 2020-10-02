@@ -75,7 +75,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL,KC__VOLUP, KC__VOLDOWN, KC_AUDIO_MUTE, LGUI(KC_RBRC), XXXXXXX,     KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT,  KC_F15,  KC_F14, LGUI(LSFT(KC_C)), XXXXXXX, LGUI(KC_LBRC),       XXXXXXX, RSFT(KC_TAB), KC_TAB, XXXXXXX, XXXXXXX, XXXXXXX,\
+      KC_LSFT,  KC_F15,  KC_F14, LGUI(LSFT(KC_C)), XXXXXXX, LGUI(KC_LBRC),       XXXXXXX, LCTL(RSFT(KC_TAB)), LCTL(KC_TAB), XXXXXXX, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI, XXXXXXX, XXXXXXX,    XXXXXXX, XXXXXXX, KC_RGUI \
                                       //`--------------------------'  `--------------------------'
