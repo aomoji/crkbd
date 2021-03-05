@@ -71,11 +71,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [3] = LAYOUT( \
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,KC_LANG2,                     KC_LANG1, LALT(KC_LEFT), LALT(KC_RIGHT), RGUI(KC_SPACE), XXXXXXX, XXXXXXX,\
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,KC_LANG2,                     KC_LANG1, LALT(KC_LEFT), LALT(KC_RIGHT), RGUI(KC_SPACE), KC_F14, KC_F15,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL,KC__VOLUP, KC__VOLDOWN, KC_AUDIO_MUTE, LGUI(KC_RBRC), XXXXXXX,     KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX, XXXXXXX,\
+      KC_LCTL,KC__VOLDOWN, KC__VOLUP, KC_AUDIO_MUTE, LGUI(KC_RBRC), XXXXXXX,     KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT,  KC_F15,  KC_F14, LGUI(LSFT(KC_C)), XXXXXXX, LGUI(KC_LBRC),       XXXXXXX, LCTL(RSFT(KC_TAB)), LCTL(KC_TAB), XXXXXXX, XXXXXXX, XXXXXXX,\
+      KC_LSFT, XXXXXXX, XXXXXXX, LGUI(LSFT(KC_C)), XXXXXXX, LGUI(KC_LBRC),       XXXXXXX, LCTL(RSFT(KC_TAB)), LCTL(KC_TAB), XXXXXXX, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI, XXXXXXX, XXXXXXX,    XXXXXXX, XXXXXXX, KC_RGUI \
                                       //`--------------------------'  `--------------------------'
