@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, SFT_T(KC_QUOT),\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI, LOWER,  LSFT_T(KC_SPC),  LT(3, KC_SPC),  RAISE,  KC_RGUI \
+                                          KC_LGUI,LOWER,LT(3, KC_SPC),  LT(3, KC_SPC),  RAISE,  KC_RGUI \
                                       //`--------------------------'  `--------------------------'
 
   ),
@@ -71,11 +71,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [3] = LAYOUT_split_3x6_3( \
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-    LCTL(LGUI(KC_Q)),LCTL(KC_1), LCTL(KC_2),LCTL(KC_3),LCTL(KC_4),LCTL(KC_5),    KC_PGUP, LALT(KC_LEFT), LALT(KC_RIGHT), RGUI(KC_SPACE), KC_F14, KC_F15,\
+      XXXXXXX, XXXXXXX, XXXXXXX, LCTL(RSFT(KC_TAB)), LCTL(KC_TAB), KC_PGUP,      XXXXXXX, LALT(KC_LEFT), LALT(KC_RIGHT), RGUI(KC_SPACE), KC_F14, KC_F15,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL,KC_VOLD, KC_VOLU, KC_AUDIO_MUTE, LGUI(KC_RBRC), XXXXXXX,     KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX, XXXXXXX,\
+      KC_LCTL,KC_VOLD, KC_VOLU, KC_AUDIO_MUTE, XXXXXXX, KC_PGDN,                 KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, XXXXXXX, XXXXXXX, LCTL(RSFT(KC_TAB)), LCTL(KC_TAB), LGUI(KC_LBRC),KC_PGDN, KC_HOME, KC_END, XXXXXXX, XXXXXXX, XXXXXXX,\
+      KC_LSFT, XXXXXXX, XXXXXXX, KC_CAPS, XXXXXXX, KC_HOME,                      KC_END, LGUI(KC_LBRC), LGUI(KC_RBRC), XXXXXXX, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI, XXXXXXX, XXXXXXX,    XXXXXXX, XXXXXXX, KC_RGUI \
                                       //`--------------------------'  `--------------------------'
